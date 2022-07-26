@@ -94,7 +94,7 @@ public class Simulation {
 
         }
         totalLandCost+=failedLandings*(u2Rockets.get(0).getCostInMillions());
-
+        // return the final cost
         return totalLandCost+totalLaunchCost;
 
     }
